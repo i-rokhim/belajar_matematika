@@ -25,3 +25,21 @@
    li {
      margin-bottom: 8px;
    }
+
+.kartu-topik {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.kartu {
+  background-color: #ffffff;
+  border: 3px solid #1b5e9e;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.kartu h3 {
+  margin-top: 0;
+  color: #1b5e9e;
+}
