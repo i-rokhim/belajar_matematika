@@ -4,7 +4,7 @@
 Tahap 2: Dasar web
 
 ## Checklist Tahap 2
-- [ ] 2.1 HTML: judul, paragraf, daftar, gambar, tautan, tabel
+- [x] 2.1 HTML: judul, paragraf, daftar, gambar, tautan, tabel
 - [x] 2.2 CSS dasar: warna, huruf, jarak
 - [x] 2.3 CSS tata letak: Flexbox dan Grid
 - [x] 2.4 Tampilan responsif untuk HP
