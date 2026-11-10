@@ -36,7 +36,7 @@
 
 .kartu-topik {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 16px;
 }
 
@@ -96,15 +96,15 @@ th {
 
 .menu a {
   padding: 10px 14px;
-  border: 2px solid #1a5c9a;
+  border: 2px solid #1b5e9e;
   border-radius: 8px;
   background: #ffffff;
-  color: #1a5c9a;
+  color: #1b5e9e;
   font-weight: bold;
   text-decoration: none;
 }
 
 .menu a[aria-current="page"] {
-  background: #1a5c9a;
+  background: #1b5e9e;
   color: #ffffff;
 }
