@@ -16,3 +16,4 @@ Tahap 2: Dasar web
 | 2026-11-09 | Tahap 1 selesai, folder proyek dibuat |
 | 2026-11-09 | index.html pertama selesai, kode diunggah ke GitHub |
 | 2026-11-10 | CSS, kartu topil Grid dan tampilan HP selesai |
+|2026-11-10 | Halaman penjumlahan dan pengurangan selesai, Tahap 2 selesai |
