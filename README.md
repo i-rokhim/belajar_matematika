@@ -19,4 +19,4 @@ Sedang mengerjakan Tahap 2: Dasar web.
 
 ## Sumber
 
-- [Matematika untuk SD/MI Kelas II, Buku Siswa (Kemendikdasmen)](https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Matematika-BS-KLS-II.pdf)
+- [Matematika untuk SD/MI Kelas II, Buku Siswa (Kemendikdasmen)](https://buku.kemendikdasmen.go.id/katalog)
