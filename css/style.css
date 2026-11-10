@@ -72,3 +72,12 @@ th, td {
 th {
   background-color: #dbeafe;
 }
+
+.kartu a {
+  font-weight: bold;
+}
+
+.segera {
+  color: #555555;
+  font-style: italic;
+}
