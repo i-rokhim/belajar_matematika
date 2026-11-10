@@ -86,3 +86,25 @@ th {
   font-weight: bold;
   color: #1a5c2a;
 }
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.menu a {
+  padding: 10px 14px;
+  border: 2px solid #1a5c9a;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1a5c9a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a[aria-current="page"] {
+  background: #1a5c9a;
+  color: #ffffff;
+}
