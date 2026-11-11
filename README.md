@@ -18,7 +18,7 @@ SD kelas 2, Matematika (percontohan).
 
 ## Status
 
-Tahap 4 (Deploy dan uji) sedang berjalan. Situs sudah online dan lolos uji di komputer. Uji di HP sungguhan belum dilakukan.
+Tahap 1 sampai 4 selesai: situs online dan sudah diuji di komputer dan di HP sungguhan. Tahap 5 (latihan interaktif penjumlahan dan pengurangan) sedang berjalan: latihan sudah jalan di komputer, uji online dan uji HP menyusul.
 
 ## Sumber
 

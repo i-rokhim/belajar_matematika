@@ -108,3 +108,94 @@ th {
   background: #1b5e9e;
   color: #ffffff;
 }
+
+/* ===== Latihan interaktif (Tahap 5) ===== */
+
+#pilihan {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.pilihan-jawaban {
+  min-width: 88px;
+  min-height: 64px;
+  padding: 8px 20px;
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1b5e9e;
+  background: #ffffff;
+  border: 3px solid #1b5e9e;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pilihan-jawaban:hover {
+  background: #dbeafe;
+}
+
+.pilihan-jawaban:focus-visible,
+#tombol-lanjut:focus-visible {
+  outline: 4px solid #222222;
+  outline-offset: 3px;
+}
+
+/* Setelah dijawab, tombol terkunci */
+.pilihan-jawaban:disabled {
+  cursor: default;
+  color: #555555;
+  background: #f2f2f2;
+  border-color: #999999;
+}
+
+.pilihan-jawaban.benar,
+.pilihan-jawaban.benar:disabled {
+  color: #1b5e20;
+  background: #e8f5e9;
+  border-color: #1b5e20;
+}
+
+.pilihan-jawaban.benar::after {
+  content: " \2713";
+}
+
+.pilihan-jawaban.salah,
+.pilihan-jawaban.salah:disabled {
+  color: #b71c1c;
+  background: #fdecea;
+  border-color: #b71c1c;
+}
+
+.pilihan-jawaban.salah::after {
+  content: " \2717";
+}
+
+#soal {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#umpan-balik {
+  min-height: 1.6em;
+  font-weight: bold;
+}
+
+#tombol-lanjut {
+  min-height: 56px;
+  padding: 8px 24px;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #1b5e9e;
+  border: 3px solid #1b5e9e;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Penting: tanpa ini, tombol tetap terlihat walau atribut hidden aktif */
+#tombol-lanjut[hidden] {
+  display: none;
+}

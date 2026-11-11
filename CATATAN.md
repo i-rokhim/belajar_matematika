@@ -1,7 +1,7 @@
 # Catatan Proyek
 
 ## Tahap aktif
-Tahap 4: Deploy dan uji
+Tahap 5: Interaksi (latihan penjumlahan dan pengurangan)
 
 ## Alamat
 - Situs online: https://i-rokhim.github.io/belajar_matematika/
@@ -25,6 +25,15 @@ Tahap 4: Deploy dan uji
 - [x] 4.4 Perbarui README.md dan CATATAN.md
 - [x] Hapus token GitHub (Settings, Developer settings, Personal access tokens, Tokens (classic))
 
+## Checklist Tahap 5
+- [x] 5.1 Kerangka latihan di penjumlahan.html dan pengurangan.html
+- [x] 5.2 Logika soal di js/latihan.js (soal ditulis sendiri, tanpa pencatatan nilai)
+- [x] 5.3 Gaya tombol jawaban di css/style.css
+- [x] Uji di komputer lolos (lebar normal dan lebar 320, jawaban benar dan salah)
+- [ ] Push (tiga commit) dengan token baru, lalu token dihapus
+- [ ] Uji online di komputer
+- [ ] Uji di HP sungguhan (Chrome Android)
+
 ## Keputusan lisensi
 - Buku Kemendikdasmen hanya ditautkan, isinya tidak disalin.
 - Tidak ditemukan lisensi terbuka untuk isi buku. FAQ SIBI mengizinkan mengunduh dan mencetak.
@@ -46,3 +55,4 @@ Tahap 4: Deploy dan uji
 | 2026-11-11 | Lisensi buku diperiksa dan dicatat di SUMBER.md |
 | 2026-11-11 | README dan CATATAN diperbarui, commit f4e4b43 dikirim, token GitHub dihapus |
 | 2026-11-11 | Uji HP sungguhan lolos, Tahap 4 siap |
+| 2026-11-11 | Tahap 5 dimulai: latihan penjumlahan dan pengurangan jalan di komputer, belum di-push |
