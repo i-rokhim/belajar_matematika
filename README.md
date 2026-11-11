@@ -18,7 +18,7 @@ SD kelas 2, Matematika (percontohan).
 
 ## Status
 
-Tahap 1 sampai 4 selesai: situs online dan sudah diuji di komputer dan di HP sungguhan. Tahap 5 (latihan interaktif penjumlahan dan pengurangan) sedang berjalan: latihan sudah jalan di komputer, uji online dan uji HP menyusul.
+Tahap 1 sampai 5 selesai: situs online dengan latihan interaktif penjumlahan dan pengurangan, sudah diuji di komputer dan di HP sungguhan.
 
 ## Sumber
 

@@ -1,7 +1,7 @@
 # Catatan Proyek
 
 ## Tahap aktif
-Tahap 5: Interaksi (latihan penjumlahan dan pengurangan)
+Tahap 5 selesai. Berikutnya Tahap 7: Rawat dan kembangkan (Tahap 6 dilewati)
 
 ## Alamat
 - Situs online: https://i-rokhim.github.io/belajar_matematika/
@@ -30,9 +30,9 @@ Tahap 5: Interaksi (latihan penjumlahan dan pengurangan)
 - [x] 5.2 Logika soal di js/latihan.js (soal ditulis sendiri, tanpa pencatatan nilai)
 - [x] 5.3 Gaya tombol jawaban di css/style.css
 - [x] Uji di komputer lolos (lebar normal dan lebar 320, jawaban benar dan salah)
-- [ ] Push (tiga commit) dengan token baru, lalu token dihapus
-- [ ] Uji online di komputer
-- [ ] Uji di HP sungguhan (Chrome Android)
+- [x] Push (tiga commit) dengan token baru, lalu token dihapus
+- [x] Uji online di komputer (penjumlahan dan pengurangan)
+- [x] Uji di HP sungguhan (11 November 2026, Chrome Android: penjumlahan dan pengurangan, jawaban benar dan salah, tidak ada gulir ke samping)
 
 ## Keputusan lisensi
 - Buku Kemendikdasmen hanya ditautkan, isinya tidak disalin.
@@ -56,3 +56,4 @@ Tahap 5: Interaksi (latihan penjumlahan dan pengurangan)
 | 2026-11-11 | README dan CATATAN diperbarui, commit f4e4b43 dikirim, token GitHub dihapus |
 | 2026-11-11 | Uji HP sungguhan lolos, Tahap 4 siap |
 | 2026-11-11 | Tahap 5 dimulai: latihan penjumlahan dan pengurangan jalan di komputer, belum di-push |
+| 2026-11-11 | Tahap 5 siap: latihan penjumlahan dan pengurangan lolos uji online di komputer dan HP sungguhan |
