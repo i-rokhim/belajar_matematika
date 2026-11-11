@@ -22,8 +22,8 @@ Tahap 4: Deploy dan uji
 - [x] 4.2 Uji situs online di komputer (CSS, gambar, kartu, tabel, menu, tautan buku)
 - [ ] 4.2 Uji di HP sungguhan (tertunda, belum ada HP untuk menguji)
 - [x] 4.3 Pemeriksaan lisensi buku, hasil di SUMBER.md
-- [ ] 4.4 Perbarui README.md dan CATATAN.md (sedang dikerjakan)
-- [ ] Hapus token GitHub (Settings, Developer settings, Personal access tokens, Tokens (classic))
+- [x] 4.4 Perbarui README.md dan CATATAN.md
+- [x] Hapus token GitHub (Settings, Developer settings, Personal access tokens, Tokens (classic))
 
 ## Keputusan lisensi
 - Buku Kemendikdasmen hanya ditautkan, isinya tidak disalin.
@@ -44,3 +44,5 @@ Tahap 4: Deploy dan uji
 | 2026-11-10 | Tahap 3 selesai |
 | 2026-11-11 | GitHub Pages aktif, situs online lolos uji di komputer |
 | 2026-11-11 | Lisensi buku diperiksa dan dicatat di SUMBER.md |
+| 2026-11-11 | README dan CATATAN diperbarui, commit f4e4b43 dikirim, token GitHub dihapus |
+
