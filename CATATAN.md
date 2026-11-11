@@ -41,7 +41,7 @@ Tahap 5 selesai. Berikutnya Tahap 7: Rawat dan kembangkan (Tahap 6 dilewati)
 
 ## Catatan desain
 - Menu ditulis manual di tiap berkas. Dirapikan di Tahap 7.
-- Di layar sempit, tiga tombol menu menurun dan memakan banyak ruang. Dirapikan di Tahap 7.
+- Di layar sempit (480px ke bawah), tombol menu dibuat lebih ringkas dan menjadi dua baris. Selesai di Tahap 7.
 
 ## Log
 | Tanggal | Yang dikerjakan |
@@ -57,3 +57,4 @@ Tahap 5 selesai. Berikutnya Tahap 7: Rawat dan kembangkan (Tahap 6 dilewati)
 | 2026-11-11 | Uji HP sungguhan lolos, Tahap 4 siap |
 | 2026-11-11 | Tahap 5 dimulai: latihan penjumlahan dan pengurangan jalan di komputer, belum di-push |
 | 2026-11-11 | Tahap 5 siap: latihan penjumlahan dan pengurangan lolos uji online di komputer dan HP sungguhan |
+| 2026-11-11 | Tahap 7: menu lebih ringkas di layar sempit, lolos uji di komputer (belum di-push) |

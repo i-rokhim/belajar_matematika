@@ -199,3 +199,21 @@ th {
 #tombol-lanjut[hidden] {
   display: none;
 }
+
+/* ===== Menu lebih ringkas di layar sempit (Tahap 7) ===== */
+
+@media (max-width: 480px) {
+  .menu {
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .menu a {
+    padding: 8px 10px;
+    min-height: 44px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+  }
+}
