@@ -57,5 +57,5 @@ Tahap 5 selesai. Berikutnya Tahap 7: Rawat dan kembangkan (Tahap 6 dilewati)
 | 2026-11-11 | Uji HP sungguhan lolos, Tahap 4 siap |
 | 2026-11-11 | Tahap 5 dimulai: latihan penjumlahan dan pengurangan jalan di komputer, belum di-push |
 | 2026-11-11 | Tahap 5 siap: latihan penjumlahan dan pengurangan lolos uji online di komputer dan HP sungguhan |
-|2026-11-11-| Tahap 7: Menu lebih ringkas dilayar sempit, lolos uji di komputer dan HP sungguhan (comit 7cf28aa)|
-| 2026-11-14 | Tahap 7: latihan 15 soal per topik dan soal cerita pendek (soal ke-3, 6, 9, 12, 15), lolos uji di komputer (belum di-push) |
+| 2026-11-11 | Tahap 7: menu lebih ringkas di layar sempit, lolos uji di komputer dan HP sungguhan (commit 7cf28aa) |
+| 2026-11-14 | Tahap 7: latihan 15 soal per topik dan soal cerita pendek (soal ke-3, 6, 9, 12, 15), lolos uji online di komputer dan HP sungguhan (commit 47a1447) |
