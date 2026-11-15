@@ -1,7 +1,7 @@
 # Catatan Proyek
 
 ## Tahap aktif
-Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedang berjalan: pekerjaan 1, 2, dan 4 selesai di komputer; berikutnya pekerjaan 3 (topik baru).
+Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedang berjalan: pekerjaan 1, 2, dan 4 selesai dan terbukti; berikutnya pekerjaan 3 (topik baru).
 
 ## Alamat
 - Situs online: https://i-rokhim.github.io/belajar_matematika/
@@ -38,11 +38,11 @@ Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedan
 - [x] 7.1 Menu lebih ringkas di layar sempit (commit 7cf28aa; uji komputer, online, HP sungguhan)
 - [x] 7.2 Latihan 15 soal per topik dan soal cerita pendek (commit 47a1447; uji komputer, online, HP sungguhan)
 - [ ] 7.3 Topik baru: Bilangan sampai 1.000, Pengukuran, Bentuk di sekitar kita, Posisi benda dan pola
-- [x] 7.4 Menu bersama lewat js/menu.js, dengan cadangan saat JavaScript mati (commit 02ec611; uji di komputer lolos)
-- [ ] 7.4 Uji klik antarhalaman di komputer
-- [ ] 7.4 Uji online di komputer setelah push
-- [ ] 7.4 Uji di HP sungguhan setelah push
-- [ ] Push dengan token baru, lalu token dihapus
+- [x] 7.4 Menu bersama lewat js/menu.js, dengan cadangan saat JavaScript mati (commit 02ec611)
+- [x] 7.4 Uji klik antarhalaman di komputer
+- [x] 7.4 Uji online di komputer setelah push
+- [x] 7.4 Uji di HP sungguhan setelah push (15 November 2026, Chrome Android, tiga halaman)
+- [x] Push dengan token baru, lalu token dihapus (15 November 2026, push b2bc50a, token terbukti terhapus)
 
 ## Keputusan lisensi
 - Buku Kemendikdasmen hanya ditautkan, isinya tidak disalin.
@@ -69,4 +69,4 @@ Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedan
 | 2026-11-11 | Tahap 5 siap: latihan penjumlahan dan pengurangan lolos uji online di komputer dan HP sungguhan |
 | 2026-11-11 | Tahap 7: menu lebih ringkas di layar sempit, lolos uji di komputer dan HP sungguhan (commit 7cf28aa) |
 | 2026-11-14 | Tahap 7: latihan 15 soal per topik dan soal cerita pendek (soal ke-3, 6, 9, 12, 15), lolos uji online di komputer dan HP sungguhan (commit 47a1447) |
-| 2026-11-15 | Tahap 7: menu bersama lewat js/menu.js, lolos uji di komputer, belum di-push (commit 02ec611) |
+| 2026-11-15 | Tahap 7: menu bersama lewat js/menu.js, lolos uji di komputer, online, dan HP sungguhan (commit 02ec611, dikirim bersama b2bc50a) |
