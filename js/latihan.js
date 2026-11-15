@@ -6,15 +6,36 @@
 var DAFTAR_SOAL = {
   penjumlahan: [
     [1, 2], [2, 3], [3, 4], [4, 4], [5, 3],
-    [6, 2], [7, 5], [8, 6], [9, 4], [10, 7]
+    [6, 2], [7, 5], [8, 6], [9, 4], [10, 7],
+    [11, 4], [12, 6], [13, 5], [15, 4], [16, 3]
   ],
   pengurangan: [
     [5, 2], [6, 3], [7, 4], [8, 5], [9, 3],
-    [10, 6], [12, 5], [14, 7], [15, 8], [18, 9]
+    [10, 6], [12, 5], [14, 7], [15, 8], [18, 9],
+    [11, 4], [13, 6], [16, 7], [17, 9], [20, 8]
   ]
 };
 
 var TANDA = { penjumlahan: "+", pengurangan: "-" };
+
+// Soal cerita: teks cerita memakai {a} dan {b} untuk bilangan.
+// Setiap cerita: [kalimat cerita, a, b]
+var DAFTAR_CERITA = {
+  penjumlahan: [
+    ["Ada {a} kelereng merah dan {b} kelereng biru. Berapa semua kelerengnya?", 4, 3],
+    ["Ani punya {a} buku. Ibu memberi {b} buku lagi. Berapa buku Ani sekarang?", 6, 5],
+    ["Di kebun ada {a} ayam dan {b} bebek. Berapa semua hewannya?", 8, 4],
+    ["Budi menanam {a} pohon di pagi hari dan {b} pohon di sore hari. Berapa pohon yang ditanam Budi?", 7, 6],
+    ["Ada {a} anak di kelas. Lalu datang {b} anak lagi. Berapa anak sekarang?", 12, 5]
+  ],
+  pengurangan: [
+    ["Ada {a} permen. Dimakan {b} permen. Berapa permen yang tersisa?", 9, 4],
+    ["Rani punya {a} balon. {b} balon terbang. Berapa balon Rani sekarang?", 10, 3],
+    ["Di piring ada {a} kue. Adik mengambil {b} kue. Berapa kue yang tersisa?", 12, 5],
+    ["Ada {a} burung di pohon. {b} burung terbang pergi. Berapa burung yang masih ada?", 14, 6],
+    ["Toni membawa {a} kelereng. Ia memberi {b} kelereng kepada temannya. Berapa kelereng Toni sekarang?", 15, 8]
+  ]
+};
 
 // Acak urutan isi daftar (mengembalikan salinan baru)
 function acak(daftar) {
@@ -65,9 +86,18 @@ if (bagian) {
       var pasangan = urutan[nomor];
       var a = pasangan[0];
       var b = pasangan[1];
-      benarSekarang = hitungJawaban(jenis, a, b);
+      var teks = a + " " + TANDA[jenis] + " " + b + " = ?";
 
-      elSoal.textContent = a + " " + TANDA[jenis] + " " + b + " = ?";
+      var ceritaJenis = DAFTAR_CERITA[jenis];
+      if (ceritaJenis && nomor % 3 === 2) {
+        var cerita = ceritaJenis[Math.floor(nomor / 3) % ceritaJenis.length];
+        a = cerita[1];
+        b = cerita[2];
+        teks = cerita[0].replace("{a}", a).replace("{b}", b);
+      }
+
+      benarSekarang = hitungJawaban(jenis, a, b);
+      elSoal.textContent = teks;
       elUmpanBalik.textContent = "";
       tombolLanjut.hidden = true;
       elPilihan.innerHTML = "";
