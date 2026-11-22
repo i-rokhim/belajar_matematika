@@ -1,7 +1,7 @@
 # Catatan Proyek
 
 ## Tahap aktif
-Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedang berjalan: pekerjaan 1, 2, dan 4 selesai dan terbukti; pekerjaan 3 (topik baru) sedang berjalan, topik Bilangan sampai 1.000 selesai di komputer dan belum di-push.
+Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedang berjalan: pekerjaan 1, 2, dan 4 selesai dan terbukti; pekerjaan 3 (topik baru) sedang berjalan, topik Bilangan sampai 1.000 (termasuk gambar) selesai di komputer; uji online dan HP menunggu push.
 
 ## Alamat
 - Situs online: https://i-rokhim.github.io/belajar_matematika/
@@ -39,8 +39,8 @@ Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedan
 - [x] 7.2 Latihan 15 soal per topik dan soal cerita pendek (commit 47a1447; uji komputer, online, HP sungguhan)
 - [ ] 7.3 Topik baru (satu topik per putaran):
   - [x] Bilangan sampai 1.000: halaman topik/bilangan.html, js/latihan-bilangan.js, menu, kartu Beranda (commit 435132f; uji di komputer lolos)
+  - [x] Bilangan sampai 1.000: gambar gambar/bilangan.svg dan tabel muat di layar sempit (commit 57f593c; uji di komputer lolos)
   - [ ] Bilangan sampai 1.000: uji online dan HP sungguhan setelah push
-  - [ ] Bilangan sampai 1.000: gambar SVG buatan sendiri (belum ada)
   - [ ] Pengukuran
   - [ ] Bentuk di sekitar kita
   - [ ] Posisi benda dan pola
@@ -60,6 +60,7 @@ Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedan
 - Di layar sempit (480px ke bawah), tombol menu dibuat lebih ringkas dan menjadi dua baris. Selesai di Tahap 7.
 - Dengan empat tombol, menu di lebar sekitar 310 turun jadi tiga baris. Dilihat lagi di HP sungguhan; rapikan kalau mengganggu.
 - Topik Bilangan memakai js/latihan-bilangan.js sendiri (soal dibuat otomatis dari angka acak, 9 soal per putaran). Halamannya tidak memuat latihan.js. Tombol "Ulangi latihan" di soal ke-9 belum diuji khusus untuk halaman ini.
+- Tabel Bilangan punya empat kolom, jadi di lebar 320 sempat melebar. Perbaikannya: blok gaya kecil di <head> topik/bilangan.html (kelas tabel-nilai, huruf dan jarak sel diperkecil), dan tabel dibungkus div overflow-x sebagai cadangan. css/style.css tidak diubah. Tabel empat kolom di topik lain perlu perlakuan serupa.
 
 ## Log
 | Tanggal | Yang dikerjakan |
@@ -78,4 +79,5 @@ Tahap 1 sampai 5 selesai, Tahap 6 dilewati. Tahap 7 (Rawat dan kembangkan) sedan
 | 2026-11-11 | Tahap 7: menu lebih ringkas di layar sempit, lolos uji di komputer dan HP sungguhan (commit 7cf28aa) |
 | 2026-11-14 | Tahap 7: latihan 15 soal per topik dan soal cerita pendek (soal ke-3, 6, 9, 12, 15), lolos uji online di komputer dan HP sungguhan (commit 47a1447) |
 | 2026-11-15 | Tahap 7: menu bersama lewat js/menu.js, lolos uji di komputer, online, dan HP sungguhan (commit 02ec611, dikirim bersama b2bc50a) |
-| 2026-11-22 | Tahap 7: topik Bilangan sampai 1.000 (halaman, latihan, menu, kartu Beranda), lolos uji di komputer, belum di-push (commit 435132f) |
+| 2026-11-22 | Tahap 7: topik Bilangan sampai 1.000 (halaman, latihan, menu, kartu Beranda), lolos uji di komputer dan online, dikirim bersama 0c72c59 (commit 435132f) |
+| 2026-11-23 | Tahap 7: gambar nilai tempat dan perbaikan tabel Bilangan, lolos uji di komputer, belum di-push (commit 57f593c) |
