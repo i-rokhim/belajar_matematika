@@ -3,6 +3,7 @@
 (function () {
   var DAFTAR_MENU = [
     { teks: "Beranda", tujuan: "index.html" },
+    { teks: "Bilangan", tujuan: "topik/bilangan.html" },
     { teks: "Penjumlahan", tujuan: "topik/penjumlahan.html" },
     { teks: "Pengurangan", tujuan: "topik/pengurangan.html" }
   ];
